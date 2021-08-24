@@ -1,0 +1,154 @@
+:root{
+    --colour1: #0ea4df;
+    --colour2: #5ec8f1;
+    --colour3: #066d96;
+}
+
+::selection {
+    background: var(--colour2);
+}
+
+a {
+    color: var(--colour2)
+}
+
+a:hover {
+    color: var(--colour1);
+}
+
+* {
+    font-family: sans-serif;
+    
+}
+
+html {
+    height: 100%;
+
+}
+
+body {
+    height: 100%;
+    font-size: 18px;
+    text-align: left;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    padding-top: 100px;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: var(--colour3);
+}
+
+h2, h3, p {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+ul {
+    padding-left: 10%;
+    padding-right: 7%;
+}
+
+
+/* Gets rid of the underline for links */
+a, a:focus, a:active, a:hover {
+    border:0;
+    outline:none;
+    text-decoration:none;
+}
+
+/* Navigation bar div (background/format) */
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition:top 0.3s;
+    box-shadow: 0px 0px 15px 0px var(--colour1);
+    color: var(--colour1);
+    background-color: white;
+    left: 0;
+
+}
+
+/* Specifically the nav bar LINKS (a elements) */
+.nav-link {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    list-style-type: none;
+    color: var(--colour2);
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Navbar links */ 
+.nav li {
+    float: right;
+    display: inline;
+}
+
+/* List of links (ul element) */ 
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+/* Navbar name */
+
+.navbar-name {
+    color: var(--colour3);
+    letter-spacing: 2px;
+    float: left;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-name:hover {
+    color: var(--colour1);
+}
+
+/* Nav bar title and links */
+.nav a {
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#external {
+    padding-top: 40px;
+}
+
+.footer {
+    background: var(--colour1);
+    color: white;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    width: 100%;
+    font-weight: bold;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
