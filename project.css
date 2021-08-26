@@ -2,22 +2,23 @@
     --colour1: #0ea4df;
     --colour2: #5ec8f1;
     --colour3: #066d96;
+    --colour4: #b3e5f8;
 }
 
 ::selection {
-    background: var(--colour2);
+    background: var(--colour4);
 }
 
 a {
-    color: var(--colour2)
+    color: var(--colour1)
 }
 
 a:hover {
-    color: var(--colour1);
+    color: var(--colour2);
 }
 
 * {
-    font-family: sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     
 }
 
@@ -72,9 +73,8 @@ a, a:focus, a:active, a:hover {
     position: fixed;
     top: 0;
     transition:top 0.3s;
-    box-shadow: 0px 0px 15px 0px var(--colour1);
-    color: var(--colour1);
-    background-color: white;
+    box-shadow: 0px 0px 20px 0px var(--colour2);
+    background-color: var(--colour1);
     left: 0;
 
 }
@@ -83,9 +83,9 @@ a, a:focus, a:active, a:hover {
 .nav-link {
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     list-style-type: none;
-    color: var(--colour2);
+    color: var(--colour4);
 
     text-align: center;
     padding: 14px 16px;
@@ -113,18 +113,18 @@ a, a:focus, a:active, a:hover {
 /* Navbar name */
 
 .navbar-name {
-    color: var(--colour3);
+    color: white;
     letter-spacing: 2px;
     float: left;
     padding-left: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .navbar-name:hover {
-    color: var(--colour1);
+    color: var(--colour4);
 }
 
 /* Nav bar title and links */
@@ -133,6 +133,15 @@ a, a:focus, a:active, a:hover {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+#intro {
+    padding-right: 30%;
+    padding-left: 2%;
 }
 
 #external {
