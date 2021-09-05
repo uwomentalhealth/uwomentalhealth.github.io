@@ -152,6 +152,11 @@ a, a:focus, a:active, a:hover {
     padding-left: 4%;
 }
 
+#map {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
 .footer {
     background: var(--colour1);
     color: white;
